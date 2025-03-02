@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=BioRhyme:wght@200..800&family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Sigmar&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+header {
+    background-color: rgb(0, 65, 43);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4%;
+    color: white;
+    font-family: monospace;
+    font-size: clamp(10px,1.197916666666667vw,23px);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 9%;
+    height: 31%;
+    background-color: rgb(0, 131, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header:hover {
+    background-color: rgb(2, 100, 68);
+    transition: background-color 0.21s ease-in-out;
+}
+
+.header:active {
+    background-color: rgb(12, 182, 125);
+    transition: background-color 0.16s ease-in-out;
+}
+
+.backgroundcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#b1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 88, 69);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#b2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 71, 56);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#b3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 37, 29);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#b4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 19, 15);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description {
+    font-family: 'Aldrich';
+    color: rgb(0, 185, 0);
+}
+
+.name {
+    font-family: 'Russo One';
+    color: rgb(0, 141, 0);
+    text-shadow: 4px 4px 11px rgb(21, 75, 0);
+    font-size: clamp(25px,3.645833vw,70px);
+}
+
+#p1 {
+    font-size: clamp(15px,2.34375vw,45px);
+}
+
+.p {
+    font-size: clamp(3px,1.302vw,25px);
+}
+
+.aboutus1{
+    font-family: 'Russo One';
+    color: rgb(0, 121, 0);
+    text-shadow: 4px 4px 11px rgb(13, 46, 0);
+    font-size: clamp(25px,3.645833vw,70px);
+}
+
+.description2 {
+    font-family: 'Aldrich';
+    color: rgb(0, 185, 0);
+}
+
+.p2 {
+    font-size: clamp(3px,1.09375vw,21px);
+}
+
+#p5 {
+    font-size: clamp(2.7px,0.98958333333333vw,19px);
+}
+
+.description3 {
+    font-family: 'Aldrich';
+    color: rgb(0, 136, 0);
+}
+
+.ousite {
+    font-family: 'Russo One';
+    color: rgb(0, 90, 0);
+    text-shadow: 4px 4px 11px rgb(8, 27, 0);
+    font-size: clamp(25px,3.645833vw,70px);
+}
+
+.p3 {
+    font-size: clamp(3.5px,1.1979166vw,23px);
+}
+
+#p12 {
+    font-size: clamp(3px,1.09375vw,21px);
+}
+
+#p3 {
+    font-size: clamp(3px,1.19791vw,23px);
+}
+
+.contact {
+    font-family: 'Russo One';
+    color: rgb(0, 65, 0);
+    text-shadow: 4px 4px 11px rgb(4, 14, 0);
+    font-size: clamp(25px,3.645833vw,70px);
+}
+
+#p18 {
+    font-size: clamp(6px,1.822vw,35px);
+    font-family: 'Aldrich';
+    color: rgb(0, 83, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#block {
+    text-decoration: none;
+    color: white;
+}
